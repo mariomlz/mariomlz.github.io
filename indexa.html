@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- MAIN-->   
+    <title>Mario Malizia</title>
+    <link rel="icon" type="image/x-icon" href="./contents/icons/mario_lidar_head.png"></head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">    
+    <!-- Include font is awesome -->
+    <script src="https://kit.fontawesome.com/b165665cab.js" crossorigin="anonymous"></script>
+    <body>
+        <div class="container p-3 is-primary pl-6 pr-6">
+            <!-- Title section -->
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <div class="navbar-item">
+                        <span><img src="./contents/icons/mario_lidar_head.png"> &nbsp;</span>
+                        <span class="title is-4"><strong>Mario Malizia</strong></span>
+                    </div>
+                </div>
+                <div class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="#bio">
+                            Bio
+                        </a>
+                        <a class="navbar-item" href="#background">
+                            Background
+                        </a>
+                        <!-- <a class="navbar-item" href="#research">
+                            Research
+                        </a> -->
+                    </div>
+                    <div class="navbar-end">
+                        <div class="navbar-item">
+                            <div class="buttons">
+                                <div class="button is-dark" onclick="revealEmail(event)">
+                                    <strong>Contact</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <br>
+</body>
+<!-- Bio  -->
+<div class="block">
+    <div class="columns is-mobile is-multiline">
+        <div class="column is-one-fifth-desktop is-half-mobile is-one-third-tablet">
+            <figure class="image">
+                <img class="is-rounded" src="./contents/profile/mario_nyc.jpg" alt="profile picture">
+            </figure>
+        </div>
+        <div class="column is-full- is-four-fiths-desktopmobile is-two-thirds-tablet  is-size-4">
+            <h2 class="title is-4">Bio</h2>
+            <div class="content">
+                Hello!
+                I am Mario Malizia and I am a Research Engineer in Robotics at the <a href="https://mecatron.rma.ac.be/">Robotics and Autonomous System Unit</a> of the Royal Military Academy of Belgium where
+                I am supervised by <a href="https://scholar.google.com/citations?user=wYXEEZ0AAAAJ&hl=en">Geert De Cubber</a> and <a href="https://scholar.google.com/citations?user=OQJ8ctsAAAAJ&hl=en">Rob Haelterman.</a><div class=""></div><br />
+                I am focusing on field robotics, specifically on how to improve human operator perception in the phase of mine removal.
+            </div>
+            <br />
+        </div>
+        <div class="buttons is-centered">
+            <a class="button is-normal is-rounded"
+                href="https://scholar.google.com/citations?user=3fDazuEAAAAJ&hl=nl&oi=ao">
+                <i class="fa-solid fa-graduation-cap"></i>
+                &nbsp;
+                <span>Scholar</span>
+            </a>
+            <a class="button is-normal is-rounded" href="https://www.linkedin.com/in/mario-malizia/">
+                <i class="fa-brands fa-linkedin"></i>
+                &nbsp;
+                <span>LinkedIn</span>
+            </a>
+        </div>
+    </div>
+</div>
+</html>
+
+<!-- Background -->
+<div class="block" id="background">
+    <h2 class="title is-4">Personal Background</h2>
+    <div class="content is-size-5">
+        <ul>
+            <li>I was born in Rende, a small sunny <i class="fa-solid fa-sun"></i> village between the sea <i class="fa-solid fa-water"></i> and the mountains <i class="fa-solid fa-mountain"></i> in Calabria, Italy </li>
+            <li>I moved in Milan for my Bachelor and Master at <a href="https://www.polimi.it/en">Politecnico di Milano</a></li>
+            <li>I graduated in 2023 with a Master Thesis at <a href="https://www.move.deib.polimi.it/">mOve Research Team</a> with <a href="https://www.idvgroup.com/">IVECO Defence Vehicle (IDV)</a> as an industrial partner</li>
+        </ul> 
+    </div>
+</div>
+
+<!-- Background -->
+<div class="block" id="interest">
+    <h2 class="title is-4">Research Interests</h2>
+    <div class="content is-size-5">
+        My main research interests are:
+        <ul>
+            <li>Computer Vision</li>
+            <li>Robot Simulation</li>
+            <li>Robotics</li>
+        </ul> 
+        If you are keen on collaborating, don't hesitate to reach out to me via email: <a onclick="revealEmail(event)">(click to show)</a>
+    </div>
+</div>
